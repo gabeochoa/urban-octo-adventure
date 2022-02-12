@@ -1,0 +1,25 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/clang++",
+      "-c",
+      "-std=c++2a",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Wuninitialized",
+      "-Wshadow",
+      "-Wmost",
+      "-g",
+      "-I/usr/local/include",
+      "-Ivendor/LLGL/include",
+      "-Ivendor/",
+      "-o",
+      "./output/pch.d",
+      "engine/pch.hpp"
+    ],
+    "directory": "/Users/gabeochoa/Dropbox (Meta)/P/engine",
+    "file": "/Users/gabeochoa/Dropbox (Meta)/P/supermarket/vendor/supermarket-engine/engine/pch.hpp",
+    "output": "/Users/gabeochoa/Dropbox (Meta)/P/supermarket/vendor/supermarket-engine/output/pch.d"
+  }
+]
